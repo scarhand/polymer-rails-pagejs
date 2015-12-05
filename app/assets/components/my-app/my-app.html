@@ -1,0 +1,22 @@
+<dom-module id="my-app">
+  <link rel="stylesheet" href="my-app.css" />
+  <template>
+    <paper-toast id="toast" text=""></paper-toast>
+    <div class="navbar">
+    </div>
+    <div class="container">
+    <iron-pages attr-for-selected="data-route" selected="[[route]]">
+      <section data-route="home">
+        <my-first-page></my-first-page>
+      </section>
+      <section data-route="second-page">
+        <my-second-page></my-second-page>
+      </section>
+      <section data-route="third-page">
+        <my-third-page foo="[[params.foo]]"></my-third-page>
+      </section>
+    </iron-pages>
+    </div>
+  </template>
+  <script src="my-app.js"></script>
+</dom-module>
