@@ -81,7 +81,6 @@ GEM
       mini_portile2 (~> 2.0.0.rc2)
     nokogumbo (1.4.2)
       nokogiri
-    pagejs_rails (0.0.3)
     polymer-rails (1.2.2)
       nokogiri (~> 1.6)
       nokogumbo (= 1.4.2)
@@ -158,7 +157,6 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
-  pagejs_rails
   polymer-elements-rails!
   polymer-rails
   rails (= 4.2.4)

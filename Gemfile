@@ -24,7 +24,6 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'polymer-rails'
-gem 'pagejs_rails'
 gem 'polymer-elements-rails', :git => "https://github.com/scarhand/polymer-elements-rails.git"
 
 
